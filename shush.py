@@ -22,8 +22,9 @@ def http_post(url, payload):
 
 if __name__ == "__main__":
     if len(sys.argv) > 1 and (not sys.argv[1].isdigit() and not sys.argv[1] == "stop"):
-        eprint("Usage: \n   " + sys.argv[0] + " [dnd mins]")
-        eprint("   " + sys.argv[0] + " stop")
+        print("Usage: \n   " + sys.argv[0] + " [snooze mins]", file=sys.stderr)
+        print("   " + sys.argv[0] + " stop", file=sys.stderr)
+        sys.exit(1)
  
     tokens = get_tokens(os.path.expanduser("~/.hushrc"))
 
