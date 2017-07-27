@@ -1,0 +1,11 @@
+Paste the text on your Slack API token page here.  
+Shush will automatically cherry-pick all of your Slack the tokens from the pasted text.
+
+https://api.slack.com/custom-integrations/legacy-tokens
+
+Here is an example:
+
+databricks-training	zoltanctoth	
+xoxp-196318680086-197083787335-23423434445-35c31831fa70e5920d3caf9e9566523
+
+datapao	zoltan xoxp-8443022234-104942469473-21955085367-fd4b12c300f219e1d0c5a3af8399258
